@@ -1,0 +1,24 @@
+/* block array styles */
+
+.block { /* single block */
+    width: 4px;
+    margin: 0 1px;
+    display: inline-block;
+    background-color: #282c34;
+}
+
+.container { /* block container */
+    /* center of screen
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    display: flex;
+    align-items: center;*/
+    /* align blocks downward from menu */
+    width: 100%;
+    position: absolute;
+    display: flex;
+    place-content: center;
+    
+}
